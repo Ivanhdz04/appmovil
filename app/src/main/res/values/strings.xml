@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">AplicacionBien</string>
+
+
+    <string name="mi_google_maps_api_key">AIzaSyBzHbb1eRBlTfKCCKX9LrO2LHH_5cmQOi4</string>
+
+
+    <string name="Item_Inicio">Inicio</string>
+    <string name="Item_Chats">Chats</string>
+    <string name="Item_Vender">Vender</string>v
+    <string name="Item_Mis_Anuncios">Mis anuncios</string>
+    <string name="Item_Cuenta">Cuenta</string>
+
+    <string name="TituloRl">Titulo</string>
+    <string name="default_web_client_id">523651042393-umc56l4ocr0ctq6qebpn39je2vfqrim2.apps.googleusercontent.com</string>
+
+
+    <string name="Ingresar_email">Ingresar con email</string>
+    <string name="Ingresar_google">Ingresar con google</string>
+
+    <string name="Txt_login">Login de Usuario</string>
+    <string name="Et_email">Email</string>
+    <string name="Et_password">Password</string>
+    <string name="Btn_ingresar">Ingresar</string>
+    <string name="Txt_no_cuenta">¿No tienes una cuenta?</string>
+    <string name="Txt_registrarme">REGISTRARME</string>
+
+    <string name="Txt_registro">Regristro de usuario</string>
+    <string name="Txt_Et_r_password">Repetir contraseñas</string>
+    <string name="Btn_registrar">Registrar</string>
+
+
+    <!--Perfil de usuario-->
+    <string name="Txt_perfil">Perfil de usuario</string>
+    <string name="Txt_informacion">Informacion:</string>
+    <string name="Txt_nombres">Nombres:</string>
+    <string name="Tv_nombres">Nombres completos</string>
+    <string name="Txt_email">Email:</string>
+    <string name="Tv_email">email@dominio.com</string>
+    <string name="Txt_nacimiento">Fecha de nac:</string>
+    <string name="Tv_nacimiento">dd/mm/aaaa:</string>
+    <string name="Txt_miembro">Miembro desde:</string>
+    <string name="Tv_miembro">dd/mm/aaaa</string>
+    <string name="Txt_telefono">Telefono:</string>
+    <string name="Tv_telefono">9999999999</string>
+    <string name="Txt_estado_cuenta">Estado de cuenta:</string>
+    <string name="Tv_estado_cuenta">No verificado</string>
+
+    <string name="TxtOpciones">Opciones</string>
+    <string name="Btn_editar_perfil">Editar Perfil</string>
+    <string name="Btn_cerrar_sesion">Cerrar Sesion</string>
+
+    <!--Editar Perfil-->
+    <string name="Txt_editar_p">Editar perfil</string>
+    <string name="Et_nombres">Nombres completos</string>
+    <string name="Et_f_nacimiento">Fecha de nac.</string>
+    <string name="Cod_tef">+00</string>
+    <string name="Et_telefono">Telefono</string>
+    <string name="Btn_actualizar">Actualizar</string>
+
+    <!--Crear Anuncios-->
+    <string name="Et_marca">Nombre de la marca</string>
+    <string name="Categoria">Categoria</string>
+    <string name="Condicion">Condicion</string>
+    <string name="Locacion">Locacion</string>
+    <string name="Et_precio">Precio</string>
+    <string name="Et_titulo">Titulo</string>
+    <string name="Et_descripcion">Descripcion</string>
+    <string name="Btn_crear_anuncio">Crear anuncio</string>
+    <string name="Mensaje_inicio">Bienvenido a House Finder</string>
+
+    <!--Mapas-->
+    <string name="Txt_seleccionar_ubicacion">Seleccione ubicacion</string>
+    <string name="Btn_listo">Listo</string>
+
+    <!--Fragmento Inicio-->
+    <string name="Tv_locacion">Elija una locacion</string>
+    <string name="Et_buscar">Buscar</string>
+    <string name="Txt_categoria">Categorias</string>
+    <string name="Tv_Categoria">Categoria</string>
+
+    <!--Item anuncio-->
+    <string name="Tv_titulo">Nombre del producto</string>
+    <string name="Tv_descripcion">Descripcion del producto, se podra visualizar un maximo de 3 lineas</string>
+    <string name="Tv_direccion">Direccion</string>
+    <string name="Tv_condicion">Direccion</string>
+    <string name="Tv_simbolo_precio">MXN/</string>
+    <string name="Tv_precio">00</string>
+    <string name="Tv_fecha">dd/mm/yyy</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

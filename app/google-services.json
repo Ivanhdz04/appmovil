@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "523651042393",
+    "firebase_url": "https://app-housefinder-default-rtdb.firebaseio.com",
+    "project_id": "app-housefinder",
+    "storage_bucket": "app-housefinder.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523651042393:android:73c4dab314f04076daf548",
+        "android_client_info": {
+          "package_name": "com.uttab.aplicacionbien"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523651042393-vl1ti5blo0gtg5e3n4nr851r249e6c58.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.uttab.aplicacionbien",
+            "certificate_hash": "cadb77d3fd56bda4ec228855cd3164f3e584f976"
+          }
+        },
+        {
+          "client_id": "523651042393-umc56l4ocr0ctq6qebpn39je2vfqrim2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAOpQxLfolpuA9Traujy2xhNjkS6l4PHD8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523651042393-umc56l4ocr0ctq6qebpn39je2vfqrim2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
