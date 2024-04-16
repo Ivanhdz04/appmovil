@@ -13,7 +13,7 @@ class FiltrarAnuncio (
         var filtro = filtro
         val resultados = FilterResults()
 
-        if (!filtro.isNullOrBlank()){
+        if (!filtro.isNullOrEmpty()){
             filtro = filtro.toString().uppercase(Locale.getDefault())
             val filtroModelo = ArrayList<ModeloAnuncio>()
             for(i in filtroLista.indices){

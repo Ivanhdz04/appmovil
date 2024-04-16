@@ -8,7 +8,7 @@
     <string name="Item_Inicio">Inicio</string>
     <string name="Item_Chats">Chats</string>
     <string name="Item_Vender">Vender</string>v
-    <string name="Item_Mis_Anuncios">Mis anuncios</string>
+    <string name="Item_Mis_Anuncios">Anuncios</string>
     <string name="Item_Cuenta">Cuenta</string>
 
     <string name="TituloRl">Titulo</string>
@@ -83,10 +83,26 @@
     <string name="Tv_titulo">Nombre del producto</string>
     <string name="Tv_descripcion">Descripcion del producto, se podra visualizar un maximo de 3 lineas</string>
     <string name="Tv_direccion">Direccion</string>
-    <string name="Tv_condicion">Direccion</string>
+    <string name="Tv_condicion">Condicion</string>
     <string name="Tv_simbolo_precio">MXN/</string>
     <string name="Tv_precio">00</string>
     <string name="Tv_fecha">dd/mm/yyy</string>
+
+    <string name="Txt_detalle_info">Detalle del anuncio</string>
+    <string name="Tv_cat">Categoria del anuncio</string>
+    <string name="Txt_titulo">Titulo</string>
+    <string name="Txt_descripcion">Descripcion</string>
+    <string name="Tv_descr">Descripcion del anuncio</string>
+    <string name="Txt_direccion">Direccion</string>
+    <string name="Txt_descr_vendedor">Descripcion del vendedor</string>
+    <!-- opciones de detalle anuncio -->
+
+    <string name="Btn_mapa">mapa</string>
+    <string name="Btn_llamar">Call</string>
+    <string name="Btn_sms">SMS</string>
+    <string name="Btn_chat">Chat</string>
+
+    <string name="imagenContadorTv">1/4</string>
 
 
     <!-- TODO: Remove or change this placeholder text -->

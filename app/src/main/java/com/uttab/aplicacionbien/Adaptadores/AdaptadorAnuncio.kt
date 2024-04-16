@@ -1,6 +1,7 @@
 package com.uttab.aplicacionbien.Adaptadores
 
 import android.content.Context
+import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -14,6 +15,7 @@ import com.google.firebase.database.DatabaseError
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.database.ValueEventListener
 import com.uttab.aplicacionbien.Constantes
+import com.uttab.aplicacionbien.DetalleAnuncio.DetalleAnuncio
 import com.uttab.aplicacionbien.Filtro.FiltrarAnuncio
 import com.uttab.aplicacionbien.Modelo.ModeloAnuncio
 import com.uttab.aplicacionbien.R
@@ -64,12 +66,18 @@ class  AdaptadorAnuncio : RecyclerView.Adapter<AdaptadorAnuncio.HolderAnuncio>, 
 
         comprobarFavorito(modeloAnuncio, holder)
 
-        holder.Tv_titulo. text = titulo
+        holder.Tv_titulo.text = titulo
         holder.Tv_descripcion.text = descripcion
-        holder.Tv_direccion. text = direccion
-                holder.Tv_condicion.text = condicion
+        holder.Tv_direccion.text = direccion
+        holder.Tv_condicion.text = condicion
         holder.Tv_precio.text = precio
         holder.Tv_fecha.text = formatoFecha
+
+        holder.itemView.setOnClickListener {
+            val intent = Intent(context, DetalleAnuncio::class.java)
+            intent.putExtra("idAnuncio", modeloAnuncio.id)
+            context.startActivity(intent)
+        }
 
         holder.Ib_fav.setOnClickListener {
             val favorito = modeloAnuncio.favorito
@@ -147,7 +155,7 @@ class  AdaptadorAnuncio : RecyclerView.Adapter<AdaptadorAnuncio.HolderAnuncio>, 
 
     override fun getFilter(): Filter {
         if (filtro == null) {
-            filtro == FiltrarAnuncio(this, filtroLista)
+            filtro = FiltrarAnuncio(this, filtroLista)
         }
         return filtro as FiltrarAnuncio
     }
